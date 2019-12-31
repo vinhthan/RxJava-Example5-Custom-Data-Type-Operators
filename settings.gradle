@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Example 5 Custom Data Type Operators'
