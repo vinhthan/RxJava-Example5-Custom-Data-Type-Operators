@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         compositeDisposable = new CompositeDisposable();
 
-        Observer<Student> studentObserver = getStudentObserver()
 
         compositeDisposable.add(getStudentObservable()
         .subscribeOn(Schedulers.io())
